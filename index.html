@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>THE BEST ONE</title>
+    <link rel="icon" type="image/png" sizes="850x466" href="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737">
+    <link rel="icon" type="image/png" sizes="850x466" href="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737">
+    <link rel="icon" type="image/png" sizes="850x466" href="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737">
+    <link rel="icon" type="image/png" sizes="850x466" href="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737">
+    <link rel="icon" type="image/png" sizes="850x466" href="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800">
+    <link rel="stylesheet" href="assets/css/Flaticon.css?h=95b6d292ebdd591f50d2d35b289ff7c7">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css?h=8c7f134f106a081d699dc5b9057aa92a">
+    <link rel="stylesheet" href="assets/css/navigation.css?h=2fed8d60bf336e8f27ce3ca452cf6a7b">
+    <link rel="stylesheet" href="assets/css/responsive.css?h=043f1a1f719ff78420f4f61dc001ca38">
+    <link rel="stylesheet" href="assets/css/slick-theme.css?h=aa7cbff71ef304032513df741960d01c">
+    <link rel="stylesheet" href="assets/css/slick.css?h=2dc6620833add5062ad7599d4f9d3ee6">
+</head>
+
+<body>
+    <!-- Start: Navigation -->
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="assets/img/thebestone_logo.png?h=41d1ef837b351d735cb64b21d985f737"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#nav-top"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="nav-top">
+                <form class="form-inline">
+                    <div class="nav-form"><input class="form-control" type="text" placeholder="Search for products"><button class="btn search-btn" type="button"><i class="material-icons">search</i></button></div>
+                </form>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link p-0" data-toggle="dropdown" aria-expanded="false" href="#">My Account<span>Login/Sign Up<i class="icon-arrow-down ml-2"></i></span></a>
+                        <div class="dropdown-menu dropdown-menu-right"><button class="btn btn-account-login" type="button">Login or Sign Up</button><a class="dropdown-item text-left" href="#"><i class="icon-question mr-2"></i>FAQs</a><a class="dropdown-item text-left" href="#"><i class="icon-magic-wand mr-2"></i>Offers</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link cart-browse" href="javascript:void(0)"><i class="typcn typcn-shopping-cart mr-2"></i>My Cart</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- End: Navigation -->
+    <div class="modal fade modal-login" role="dialog" tabindex="-1" id="modal-login">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5 class="modal-head mb-0">Phone Number Verification</h5>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-center my-3 font-weight-bold">Enter your phone number to<br>Login/Sign up<br></p>
+                    <form class="login-form">
+                        <div class="login-input"><input class="form-control" type="tel" maxlength="10"></div><button class="btn btn-primary btn-block my-3 btn-login" type="button" disabled="">Next</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade cart-modal" role="dialog" tabindex="-1" id="cart-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content cart-modal-content">
+                <div class="modal-header cart-head">
+                    <h5 class="modal-title">My Cart</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="empty-cart"><img src="https://grofers.com/images/cart/empty-cart_2x-da3645a.png" alt="empty" width="160px">
+                        <h5 class="mt-5 mb-0 font-weight-bold">No items in your cart<br></h5>
+                        <p class="mb-0 mt-1">Your favourite items are just a click away<br></p>
+                    </div>
+                </div>
+                <div class="modal-footer"><button class="btn btn-block btn-cart" type="button">Start Shopping</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="store-categories">
+                    <a href="nv/grocery-staples.html">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-16.jpg"></div>
+                            <div class="product-title">
+                                <h6>Grocery &amp; Staples<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1487.jpg"></div>
+                            <div class="product-title">
+                                <h6>Vegetables &amp; Fruits<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-163.jpg"></div>
+                            <div class="product-title">
+                                <h6>Personal Care<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-18.jpg"></div>
+                            <div class="product-title">
+                                <h6>Household Items<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1878.jpg"></div>
+                            <div class="product-title">
+                                <h6>Kitchen &amp; Dining Needs<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-13.jpg"></div>
+                            <div class="product-title">
+                                <h6>Biscuits, Snacks &amp; Chocolates<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-12.jpg"></div>
+                            <div class="product-title">
+                                <h6>Beverages<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-14.jpg"></div>
+                            <div class="product-title">
+                                <h6>Breakfast &amp; Diary<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1616.jpg"></div>
+                            <div class="product-title">
+                                <h6>Best Value<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-15.jpg"></div>
+                            <div class="product-title">
+                                <h6>Noodles, Sauces &amp; Instant Food<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1379.jpg"></div>
+                            <div class="product-title">
+                                <h6>Home Furnishing and Decor<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-4.jpg"></div>
+                            <div class="product-title">
+                                <h6>Fresh &amp; Frozen<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1788.jpg"></div>
+                            <div class="product-title">
+                                <h6>Lowest Price<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-5.jpg"></div>
+                            <div class="product-title">
+                                <h6>Pet Care<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-7.jpg"></div>
+                            <div class="product-title">
+                                <h6>Baby Care<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1047.jpg"></div>
+                            <div class="product-title">
+                                <h6>Home Accessories<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1710.jpg"></div>
+                            <div class="product-title">
+                                <h6>Fashion &amp; Lifestyle<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="store-categories--product">
+                            <div class="product-image"><img src="https://webcdn.grofers.com/cdn/pdp/category-l0-1879.jpg"></div>
+                            <div class="product-title">
+                                <h6>Home Appliances<br></h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="delivery-note"><img class="img-fluid" src="https://cdn.grofers.com/layout-engine/2020-10/Gif-FnV-2.gif" draggable="false"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="products-top-list mt-0">
+                    <div class="products-top-listbar">
+                        <h5 class="mb-0 head">Fresh Fruits &amp; Veggies</h5><button class="btn btn-more" type="button">See all</button></div>
+                    <div class="products-top-inner">
+                        <div class="row">
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_317559.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹161<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹161</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">One Fresh Pomegranate (Anaar)<br></p>
+                                            <p class="text-muted">4 units (0.75-1 kg)<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_197975.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹54<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹54</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">One Fresh Nagpur Orange<br></p>
+                                            <p class="text-muted">1 kg<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_4943.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹34<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹34</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">One Fresh Brown Coconut<br></p>
+                                            <p class="text-muted">1 unit<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_391306.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹58<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹58</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">One Fresh Onion<br></p>
+                                            <p class="text-muted">1 kg<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="products-top-list mt-0">
+                    <div class="products-top-listbar">
+                        <h5 class="mb-0 head">Festive Joy</h5><button class="btn btn-more" type="button">See all</button></div>
+                    <div class="products-top-inner">
+                        <div class="row">
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_433990.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹375<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹750</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Festive Delight Mouth Freshner Gif<br></p>
+                                            <p class="text-muted">1150 g<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_392344.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹319<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹568</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Grofers Mother's Choice W320 Cas.<br></p>
+                                            <p class="text-muted">200g + 200g<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_431517.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹899<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹1527</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Grofers Mother's Choice W320 Cashews + Walnut Kernels + American Almonds + Kishmish/Raisins + Salted Pistachios Combo<br></p>
+                                            <p class="text-muted">200g + 200g + 200g + 200g + 200g<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_432362.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹218<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹390</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">India Gate Classic Basmati Rice + Grofers Mother's Choice Kishmish/Raisins Combo<br></p>
+                                            <p class="text-muted">1kg + 200g<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="products-top-list mt-0">
+                    <div class="products-top-listbar">
+                        <h5 class="mb-0 head">Best of Home Essentials</h5><button class="btn btn-more" type="button">See all</button></div>
+                    <div class="products-top-inner">
+                        <div class="row">
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="offer-tag"><span class="badge badge-success">59% OFF</span></div>
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_430952.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹116<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹289</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Dabur Veggie Fruit &amp; Vegetable Wash (Bottle)<br></p>
+                                            <p class="text-muted">500 ml<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="offer-tag"><span class="badge badge-success">33% OFF</span></div>
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_428169.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹440<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹660</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Stayfree Secure Cottony Soft Sanitary Pads (Extra Large Wings) - Buy 2 Get 1 Free<br></p>
+                                            <p class="text-muted">3 x 40 units<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="offer-tag"><span class="badge badge-success">46% OFF</span></div>
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_430950.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹191<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹360</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Dabur Sanitize Floral Disinfectant Floor Cleaner<br></p>
+                                            <p class="text-muted">2 L</p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 px-2">
+                                <div class="card product-card">
+                                    <div class="card-body p-3">
+                                        <div class="offer-tag"><span class="badge badge-success">28% OFF</span></div>
+                                        <div class="products-top-inner-img"><img class="img-fluid" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,h=140/app/images/products/normal/pro_27070.jpg"></div>
+                                        <div class="products-top-price">
+                                            <h5 class="mb-0">₹353<br></h5>
+                                            <p class="text-muted mb-0"><span style="text-decoration: line-through;">₹496</span><br></p>
+                                        </div>
+                                        <div class="products-top-list-inner">
+                                            <p class="mb-0 product-name">Surf Excel Easy Wash Detergent Powder<br></p>
+                                            <p class="text-muted">4 kg<br></p>
+                                        </div>
+                                        <div class="btn-group cart-button-group" role="group"><button class="btn btn-add-left" type="button">ADD</button><button class="btn btn-add-right" type="button">+</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start: Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="quality-marks">
+                <div class="row">
+                    <div class="col">
+                        <div class="quality-icon best-prices"></div>
+                        <div class="d-table-cell quality-description">
+                            <div class="quality-marks-name"><span>Best Prices &amp; Offers<br></span></div>
+                            <div>
+                                <p class="mb-0">Cheaper prices than your local supermarket, great&nbsp;<a href="https://grofers.com/grand-orange-bag-days">c</a>ashback offers&nbsp;to top it off.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="quality-icon genuine-products"></div>
+                        <div class="d-table-cell quality-description">
+                            <div class="quality-marks-name"><span>Wide Assortment<br></span></div>
+                            <div>
+                                <p class="mb-0">Choose from 5000+ products across food, personal care, household &amp; other categories.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="quality-icon easy-returns"></div>
+                        <div class="d-table-cell quality-description">
+                            <div class="quality-marks-name"><span>Easy Returns<br></span></div>
+                            <div>
+                                <p class="mb-0">Not satisfied with a product? Return it at the doorstep &amp; get a refund within hours.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 pt-3 border-top">
+                <div class="row">
+                    <div class="col">
+                        <div class="cat-links">
+                            <h6 class="font-weight-bold">Categories</h6>
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Grocery &amp; Staples</a></li>
+                                        <li><a href="#">Rice</a></li>
+                                        <li><a href="#">Moong Dal</a></li>
+                                        <li><a href="#">Detergent Powders</a></li>
+                                        <li><a href="#">Noodles &amp; Pasta</a></li>
+                                        <li><a href="#">Vegetables</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Tea</a></li>
+                                        <li><a href="#">Salt &amp; Sugar</a></li>
+                                        <li><a href="#">Ghee</a></li>
+                                        <li><a href="#">Soap</a></li>
+                                        <li><a href="#">Cooking Oil</a></li>
+                                        <li><a href="#">Baby Diapers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Atta</a></li>
+                                        <li><a href="#">Toor Dal</a></li>
+                                        <li><a href="#">Almonds</a></li>
+                                        <li><a href="#">Biscuits &amp; Cookies</a></li>
+                                        <li><a href="#">Fruits</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cat-links border-right-0">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="font-weight-bold">Useful Links</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Offers</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Terms &amp; Conditions</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div>
+                                        <h6 class="font-weight-bold">Download App</h6>
+                                        <div class="download-links"><a href="#"><img src="https://grofers.com/images/home/google-play_1x-6d4f8e0.png"></a><a href="#"><img src="https://grofers.com/images/home/app-store_1x-8362160.png"></a></div>
+                                    </div>
+                                    <div class="mt-3">
+                                        <h6 class="font-weight-bold">Social Connect</h6>
+                                        <ul class="list-inline social-list">
+                                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="brands-list border-top">
+                        <h6 class="font-weight-bold">Brands</h6>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Amul</a></li>
+                            <li class="list-inline-item"><a href="#">Axe</a></li>
+                            <li class="list-inline-item"><a href="#">Bambino</a></li>
+                            <li class="list-inline-item"><a href="#">Best Value</a></li>
+                            <li class="list-inline-item"><a href="#">Bingo</a></li>
+                            <li class="list-inline-item"><a href="#">Bisleri</a></li>
+                            <li class="list-inline-item"><a href="#">Boost</a></li>
+                            <li class="list-inline-item"><a href="#">Bournvita</a></li>
+                            <li class="list-inline-item"><a href="#">Britannia</a></li>
+                            <li class="list-inline-item"><a href="#">Cadbury</a></li>
+                            <li class="list-inline-item"><a href="#">Cheetos</a></li>
+                            <li class="list-inline-item"><a href="#">Cinthol</a></li>
+                            <li class="list-inline-item"><a href="#">Closeup</a></li>
+                            <li class="list-inline-item"><a href="#">Coca-Cola</a></li>
+                            <li class="list-inline-item"><a href="#">Dabour</a></li>
+                            <li class="list-inline-item"><a href="#">Danone</a></li>
+                            <li class="list-inline-item"><a href="#">Del Monte</a></li>
+                            <li class="list-inline-item"><a href="#">Dettol</a></li>
+                            <li class="list-inline-item"><a href="#">Durex</a></li>
+                            <li class="list-inline-item"><a href="#">English Oven</a></li>
+                            <li class="list-inline-item"><a href="#">Everest</a></li>
+                            <li class="list-inline-item"><a href="#">Garnier</a></li>
+                            <li class="list-inline-item"><a href="#">Gillette</a></li>
+                            <li class="list-inline-item"><a href="#">Glucon-D</a></li>
+                            <li class="list-inline-item"><a href="#">Gowardhan</a></li>
+                            <li class="list-inline-item"><a href="#">Hajmola</a></li>
+                            <li class="list-inline-item"><a href="#">Haldiram's</a></li>
+                            <li class="list-inline-item"><a href="#">Head &amp; Shoulders</a></li>
+                            <li class="list-inline-item"><a href="#">Himalaya</a></li>
+                            <li class="list-inline-item"><a href="#">L'Oreal</a></li>
+                            <li class="list-inline-item"><a href="#">Lay's</a></li>
+                            <li class="list-inline-item"><a href="#">Maggi</a></li>
+                            <li class="list-inline-item"><a href="#">Minute Maid</a></li>
+                            <li class="list-inline-item"><a href="#">Mother Diary</a></li>
+                            <li class="list-inline-item"><a href="#">Nestle</a></li>
+                            <li class="list-inline-item"><a href="#">Nutella</a></li>
+                            <li class="list-inline-item"><a href="#">Oral-B</a></li>
+                            <li class="list-inline-item"><a href="#">Oreo</a></li>
+                            <li class="list-inline-item"><a href="#">Pantene</a></li>
+                            <li class="list-inline-item"><a href="#">Paper Boat</a></li>
+                            <li class="list-inline-item"><a href="#">Parle</a></li>
+                            <li class="list-inline-item"><a href="#">Patanjali</a></li>
+                            <li class="list-inline-item"><a href="#">Pepsi</a></li>
+                            <li class="list-inline-item"><a href="#">Princeware</a></li>
+                            <li class="list-inline-item"><a href="#">Red Bull</a></li>
+                            <li class="list-inline-item"><a href="#">Saffola</a></li>
+                            <li class="list-inline-item"><a href="#">Smith &amp; Jones</a></li>
+                            <li class="list-inline-item"><a href="#">Stayfree</a></li>
+                            <li class="list-inline-item"><a href="#">Sunsilk</a></li>
+                            <li class="list-inline-item"><a href="#">Tata Tea</a></li>
+                            <li class="list-inline-item"><a href="#">Unibic</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="payment-methods">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="font-weight-bold">Payment Options</h6><img src="https://grofers.com/images/payment/mobikwik-6d9eed3.png"><img src="https://grofers.com/images/payment/paytm-1cc911c.png"><img src="https://grofers.com/images/payment/visa-42f212a.png">
+                                <img
+                                    src="https://grofers.com/images/payment/mastercard-fafd4ad.png"><img src="https://grofers.com/images/payment/maestro-be32af5.png"><img src="https://grofers.com/images/payment/rupay-77f4f26.png"><img src="https://grofers.com/images/payment/bhim-upi-3c1ef19.png"><span>Net Banking</span><span>Cash On Delivery</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© The Best One, Copyrights 2020. All Rights Reserved | Made with ❤ by Infirment Technologies Pvt. Ltd</p>
+        </div>
+    </div>
+    <!-- End: Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js?h=d5a61c749e44e47159af8a6579dda121"></script>
+    <script src="assets/js/custom.js?h=49848b10ad2de4c7131572a625cfc2ee"></script>
+</body>
+
+</html>
